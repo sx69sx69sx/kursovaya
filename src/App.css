@@ -134,3 +134,37 @@ body {
   display: block;
   object-fit: cover;
 }
+
+.text-accent-archive{
+  font-family: "Stezhok";
+  font-size: 60px;
+  /* margin-top: 20px; */
+  /* display: flex; */
+  text-decoration: none;
+  color: white;
+  cursor: cell;
+
+}
+.blue-line-two{
+  text-align: center;
+  align-items: center;
+  height: 65px;
+  background-color: #162D4C;  
+  /* margin-bottom: 20px; */
+}
+.archive-homepage{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  margin: 5em;
+  /* justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center; */
+  place-items: center;
+}
+.archive-homepage img{
+  max-width: 20em;
+  /* border-style:double; */
+  /* border-width: 2px; */
+
+}
