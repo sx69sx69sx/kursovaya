@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Menswear = () => {
+const Womenswear = () => {
   // Состояния
   const [saleOnly, setSaleOnly] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -356,4 +356,4 @@ const Menswear = () => {
   );
 };
 
-export default Menswear;
+export default Womenswear;
